@@ -1,16 +1,22 @@
 
 .tooltip{
+    box-sizing: border-box;
     padding: 40px;
     background-color: lightblue;
 }
 .tooltiptext{
+    box-sizing: border-box;
     background-color: lightslategray;
     padding: 40px;
 }
 .top,.bottom{
+    position: relative;
+    height: 30vh;
     padding: 40px;
 }
-h4{
+h2{
+    position: absolute;
+    top : 0;
     width: 20%;
     background-color: red;
     padding: 20px;
